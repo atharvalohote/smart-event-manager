@@ -1,0 +1,79 @@
+[
+  {
+    "id": "4f8e0549-531d-4806-8870-08bc949d08b6",
+    "name": "Beach Wedding",
+    "location": "Goa",
+    "date": "2025-06-19",
+    "eventType": "Wedding"
+  },
+  {
+    "id": "90c4f785-6e05-40bf-975d-6f7fe40fa950",
+    "name": "Cricket Tournament",
+    "location": "Mumbai",
+    "date": "2025-06-18",
+    "eventType": "Outdoor Sports"
+  },
+  {
+    "id": "ebb57d7f-2eb7-4585-995f-c4885093fb73",
+    "name": "Beach Wedding",
+    "location": "Goa",
+    "date": "2025-06-19",
+    "eventType": "Wedding"
+  },
+  {
+    "id": "af399302-4246-473d-ac85-a3385af3ae76",
+    "name": "crocket",
+    "location": "Mumbai",
+    "date": "2025-06-17",
+    "eventType": "Outdoor Sports"
+  },
+  {
+    "id": "c1096e61-abc1-4020-bc46-402e8382a240",
+    "name": "helo",
+    "location": "Goa",
+    "date": "2025-06-26",
+    "eventType": "Wedding"
+  },
+  {
+    "id": "cc9d643d-73da-4038-aabc-6a6aaa04c4fd",
+    "name": "Cricket Tournament",
+    "location": "Mumbai",
+    "date": "2025-06-18",
+    "eventType": "Outdoor Sports"
+  },
+  {
+    "id": "bba34966-bb6a-480a-80cd-a9368c95d0a7",
+    "name": "Beach Wedding",
+    "location": "Goa",
+    "date": "2025-06-19",
+    "eventType": "Wedding"
+  },
+  {
+    "id": "6df27f76-b552-4537-bb44-669b5ce167de",
+    "name": "Cricket Tournament",
+    "location": "Mumbai",
+    "date": "2025-06-18",
+    "eventType": "Outdoor Sports"
+  },
+  {
+    "id": "55194c44-ab02-4237-af6f-594f0e3a9cb8",
+    "name": "Ambani Wedding",
+    "location": "Pune",
+    "date": "2025-06-19",
+    "eventType": "Wedding"
+  },
+  {
+    "id": "6146b483-cdaa-4d0e-9f69-b6e9c40809aa",
+    "name": "Cricket Tournament",
+    "location": "Mumbai",
+    "date": "2025-06-18",
+    "eventType": "Outdoor Sports"
+  },
+  {
+    "id": "5fa1f227-5865-44e0-b945-637c359ae5de",
+    "name": "Trip",
+    "location": "Yavatmal",
+    "date": "2025-06-18",
+    "eventType": "Hiking Trip"
+  }
+]

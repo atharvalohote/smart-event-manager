@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Event Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Smart Event Planner</h1>
+        <p>Plan your outdoor events with smart weather recommendations.</p>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Add a New Event</h2>
+            <form id="event-form">
+                <div class="form-group">
+                    <label for="name">Event Name</label>
+                    <input type="text" id="name" placeholder="e.g., Annual Cricket Match" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location (City)</label>
+                    <input type="text" id="location" placeholder="e.g., Mumbai" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="eventType">Event Type</label>
+                    <select id="eventType" required>
+                        <option value="Outdoor Sports">Outdoor Sports</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Hiking Trip">Hiking Trip</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Add Event & Check Weather</button>
+            </form>
+        </section>
+
+        <section class="events-section">
+            <h2>Upcoming Events</h2>
+            <div id="events-container">
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+</html>

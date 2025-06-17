@@ -1,0 +1,42 @@
+### 1. Create a Cricket Tournament in Mumbai
+# We give this request a name so we can reference its response later.
+# @name createCricketEvent
+POST http://localhost:3000/api/events
+Content-Type: application/json
+
+{
+  "name": "Cricket Tournament",
+  "location": "Mumbai",
+  "date": "2025-06-18",
+  "eventType": "Outdoor Sports"
+}
+
+### This special line saves the ID from the response above into a variable
+@eventId = {{createCricketEvent.response.body.id}}
+
+
+### 2. Get Weather Suitability for the Cricket Event
+# This request uses the variable we saved.
+# IMPORTANT: You must run Request #1 before this one.
+GET http://localhost:3000/api/events/{{eventId}}/suitability
+
+
+### 3. Get Alternative Dates for the Cricket Event
+# IMPORTANT: You must run Request #1 before this one.
+GET http://localhost:3000/api/events/{{eventId}}/alternatives
+
+
+### 4. Create a Wedding in Goa for a different date
+POST http://localhost:3000/api/events
+Content-Type: application/json
+
+{
+  "name": "Beach Wedding",
+  "location": "Goa",
+  "date": "2025-06-19",
+  "eventType": "Wedding"
+}
+
+
+### 5. List All Created Events
+GET http://localhost:3000/api/events
