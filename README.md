@@ -10,8 +10,7 @@ The project also includes a simple, responsive frontend built with vanilla HTML,
 
 ### Application Screenshot
 
-![Frontend Screenshot](paste-your-image-![Uploading Screenshot 2025-06-17 at 1.48.50 PM.png…]()
-link-here)
+
 
 ---
 
