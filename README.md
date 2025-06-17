@@ -4,9 +4,10 @@ This is a full-stack application designed to help users plan outdoor events by p
 
 The project also includes a simple, responsive frontend built with vanilla HTML, CSS, and JavaScript to demonstrate the API's functionality in a user-friendly interface.
 
-**Live Application Link:** [Link to Deployed Application](your-deployment-link-here)
+**Live Application Link:** [Link to Deployed Application]([your-deployment-link-here](https://smart-event-manager.onrender.com))
 
-![Frontend Screenshot](https://i.imgur.com/3sL9g8L.png)
+![Frontend Screenshot](![Uploading Screenshot 2025-06-17 at 1.48.50 PM.png…]()
+)
 
 ---
 
