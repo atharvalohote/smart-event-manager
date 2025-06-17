@@ -10,7 +10,9 @@ The project also includes a simple, responsive frontend built with vanilla HTML,
 
 ### Application Screenshot
 
+![Screenshot of the application form and event list](https://github.com/user-attachments/assets/6933812b-d58c-4b9b-9837-8213e1287634)
 
+![Screenshot of another event with its weather score](https://github.com/user-attachments/assets/e9a0cde2-5bb0-47ac-a0ab-ba9ee1ea6c8a)
 
 ---
 
