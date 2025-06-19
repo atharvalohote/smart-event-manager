@@ -7,6 +7,14 @@ The project also includes a simple, responsive frontend built with vanilla HTML,
 **Live Application Link:** [https://smart-event-manager.onrender.com](https://smart-event-manager.onrender.com)
 
 ---
+### Postman Collection
+
+A Postman collection is included to test all the API endpoints. You can download the file below and import it into your Postman application to test the live, deployed API.
+
+[**Download the Postman Collection**](./Smart.Event.Planner.API.postman_collection.json)
+---
+
+---
 
 ### Application Screenshot
 
