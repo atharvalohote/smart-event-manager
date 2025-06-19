@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "a140009f-bd72-4cfd-9d0c-77c440b6324d",
+		"name": "Smart Event Planner API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29268988"
+	},
+	"item": [
+		{
+			"name": "Create Live Event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Monday Morning Yoga\",\n  \"location\": \"Pune\",\n  \"date\": \"2025-06-23\",\n  \"eventType\": \"Outdoor Sports\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/events",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List All Events",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/events",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Weather Suitability",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/events/:eventId/suitability",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"events",
+						":eventId",
+						"suitability"
+					],
+					"variable": [
+						{
+							"key": "eventId",
+							"value": "fcac3cf8-294b-47ac-b6cf-d3c065a2d12b"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
